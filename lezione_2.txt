@@ -12,6 +12,9 @@ selezionando solo i file che sono inclusi nella modifica logica
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+se volessi introdurre una modifica funzionale (nuova o che non so se funzionerà) allora 
+faccio un nuovo branch e modifico su quel branch in modo che la versione stabile non venga modificata e possa fare delle modifiche poi direttamente su questa senza farla
+anche su quella con la nuova funzionalità.
 
 How do the diagrams help you visualize the branch structure?
 
