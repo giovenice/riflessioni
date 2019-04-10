@@ -38,3 +38,15 @@ git merge branch_name1 branch_name2	effettua il merging di due branch (richiede 
 						
 git branch -d branch_name		elimina un branch (non i suoi commit o il codice ma solo il label o comunque la definizione di branch in quel commit)
 git show commitID			mostra differenze tra un commit e il suo padre (senza saapere qual sia il padre)
+
+
+
+
+git remote 				per vedere se collegato al mio local repository c'è un repository remoto
+git remote -v				per vedere se collegato al mio local repository c'è un repository remoto (piu specifico perchè mi da gli indirizzo di pull e push del mio repo)
+git remote add origin [indirizzo]	collega il mio repository locale a quello remoto dell indirizzo specificato
+
+
+
+
+
