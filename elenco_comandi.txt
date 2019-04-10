@@ -1,0 +1,19 @@
+						DOS
+cd .. 					vai indietro di una cartella
+cd [indirizzo] 				vai alla cartella indicata come indirizzo NB. usare "/" e nnon "\"
+ls -a					visualizza elenco file nella cartella in cui mi trovo
+dir					visualizza elenco file nella cartella in cui mi trovo
+
+
+						GIT
+git init				crea un repository per la cartella attuale
+git diff commitID1 commitID2 		confronta le differenze tra due commit
+git log					visualizza la storia dei commit di un branch
+git log --graph --oneline [branches]	visualizza grafico dei branch con i relativi commit
+git checkout "commitID || branch_name"	posiziona il progetto alla versione indicata
+git add nome_file			aggiunge alla fase di staging il file indicato
+git commit				effettua il commit dei file in staging (richiede un commento su sublime ogni volta)
+git status				controlla se ci sono file modificati non ancora "committati"	
+git branch nome_branch			crea un nuovo branch con il nome indicato a partire dal commit in cui mi trovo.
+git branch				visualizza lista dei branch
+git merge branch1 branch2		effettua il merging di due branch (richiede un commento su sublime ogni volta)	
