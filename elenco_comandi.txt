@@ -46,6 +46,9 @@ git remote 				per vedere se collegato al mio local repository c'è un repository
 git remote -v				per vedere se collegato al mio local repository c'è un repository remoto (piu specifico perchè mi da gli indirizzo di pull e push del mio repo)
 git remote add origin [indirizzo]	collega il mio repository locale a quello remoto dell indirizzo specificato
 
+git pull origin master			per prendere in locale cio che si trova nel master su github al repository collegato al mio progetto.
+git push origin master			per pushare quello che si trova sul mio pc all'interno del repository su github 
+
 
 
 
