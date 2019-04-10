@@ -16,4 +16,25 @@ git commit				effettua il commit dei file in staging (richiede un commento su su
 git status				controlla se ci sono file modificati non ancora "committati"	
 git branch nome_branch			crea un nuovo branch con il nome indicato a partire dal commit in cui mi trovo.
 git branch				visualizza lista dei branch
-git merge branch1 branch2		effettua il merging di due branch (richiede un commento su sublime ogni volta)	
+git merge branch_name1 branch_name2	effettua il merging di due branch (richiede un commento su sublime ogni volta)
+					-in caso vi siano dei conflitti nel merging viene dato un messaggio di errore:
+						Merge conflict in game.js <---- indicando i file con il conflitto.
+					 viene inoltre aggiunto (nel file in cui vi è il conflitto) del testo cosi suddivisa:
+					
+					<<<<HEAD 
+						{righe in conflitto con la modifica MIA applicata}  	
+					||||||| merged common ancestors
+						{righe in conflitto prima della mia e dell'altra modifica in conflitto} <-- generalmente questa parte viene cancellata e si cerca di unificare la parte in head con la parte al fondo 
+					=======
+      						{righe in conflitto con la modifica dell'ALTRO applicata}
+					>>>>>>> master
+					chiaramente il merge non viene effettuato fino a quando i seguenti step non vengono eseguiti:
+						1) si entra nel file con i conflitti e lo si "pulisce"  (la parte intellettuale)
+						2) git add nome_file_pulito    per aggiungere il file in staging
+						3) git status                  per vedere se tutto ok
+						4) git commit		       per effettuare il merging (si è corretto git commit e non merge)
+					
+					 
+						
+git branch -d branch_name		elimina un branch (non i suoi commit o il codice ma solo il label o comunque la definizione di branch in quel commit)
+git show commitID			mostra differenze tra un commit e il suo padre (senza saapere qual sia il padre)

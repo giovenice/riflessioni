@@ -17,9 +17,12 @@ organized? How would branches help?
 	anche su quella con la nuova funzionalità.
 
 How do the diagrams help you visualize the branch structure?
-chiaramente una visualizzazione grafica del susseguirsi dei commit e ramificazioni varie non può che aiutare a fare una mappa concettuale dell'evoluzione del progetto
+	chiaramente una visualizzazione grafica del susseguirsi dei commit e ramificazioni varie non può che aiutare a fare una mappa concettuale dell'evoluzione del progetto
 	What is the result of merging two branches together? Why do we represent it in
 	the diagram the way we do?
+
+what is the result of merging two branches toghether? why do we re presenti it in the diagram the way we do?
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
